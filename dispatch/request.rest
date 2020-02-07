@@ -1,0 +1,9 @@
+//post http://localhost:5000/api/login
+//
+//post http://localhost:5000/api/posts
+
+get http://localhost:5000/api/
+
+//get http://192.168.0.126:5000/api/
+
+//get http://dev-scctgateway.elixia.tech/api/

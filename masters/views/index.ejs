@@ -1,0 +1,459 @@
+  <% include ./partials/header %>
+
+    <!-- <h1><%= title %></h1> -->
+    
+    
+
+    <div class="row ">
+      <div class="container">
+          <div class="col-md-2"></div>
+          <div class="col-md-6 well">
+
+        <h2>CheckPointMaster</h2>
+        
+        <!-- createCheckPointMaster -->
+        <div  data-toggle="collapse" id="collapsecreateCheckPointMaster" data-target="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <b class="alert-info"> createCheckPointMaster </b>
+        </div>
+        
+        
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            <form name="createCheckPointMasterForm">
+              <br>
+              <div class="form-group">
+                <label for="checkPointName">checkPointName</label>
+                <input type="text" class="form-control" id="checkPointName" name="checkPointName" aria-describedby="checkPointName" placeholder="Enter checkPointName">
+                
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">checkPointCode</label>
+                <input type="text" class="form-control" id="checkPointCode"  name="checkPointCode" placeholder="checkPointCode">
+              </div>
+
+              <div class="form-group">
+                <label for="checkPointCategory">checkPointCategory</label>
+                <input type="text" class="form-control" id="checkPointCategory"  name="checkPointCategory" placeholder="checkPointCategory">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">circularLatLong</label>
+                <input type="circularLatLong" class="form-control" id="circularLatLong"  name="circularLatLong" placeholder="circularLatLong">
+              </div>
+
+              <div class="form-group">
+                  <label for="exampleInputPassword1">polygonalLatLong</label>
+                  <input type="polygonalLatLong" class="form-control" id="polygonalLatLong"  name="polygonalLatLong" placeholder="polygonalLatLong">
+                </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">description</label>
+                <input type="text" class="form-control" id="description"  name="description" placeholder="description">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">customerNo</label>
+                <input type="text" class="form-control" id="customerNo"  name="customerNo" placeholder="customerNo">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">createdBy</label>
+                <input type="text" class="form-control" id="createdBy"  name="createdBy" placeholder="createdBy">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">createdOn</label>
+                <input type="text" class="form-control" id="createdOn"  name="createdOn" placeholder="createdOn">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">updatedBy</label>
+                <input type="text" class="form-control" id="updatedBy"  name="updatedBy" placeholder="updatedBy">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">isDeleted</label>
+                <input type="text" class="form-control" id="isDeleted"  name="isDeleted" placeholder="isDeleted">
+              </div>
+              <button type="" class="btn btn-primary" id="btncheckPointCategory">Submit</button>
+            </form>
+          </div>
+        </div>
+        <!-- createCheckPointMaster -->
+
+
+
+        <!-- updateCheckPointMaster -->
+
+        <br>
+        <div  data-toggle="collapse" id="collapseupdateCheckPointMaster" data-target="#EditCheckPointMaster" role="button" aria-expanded="false" aria-controls="EditCheckPointMaster">
+            <b class="alert-info"> updateCheckPointMaster </b>
+        </div>
+        
+        <div class="collapse" id="EditCheckPointMaster">
+          <div class="card card-body">
+            <form name="checkPointMasterForm">
+              <br>
+              
+              <div class="form-group">
+                  <label for="checkPointMasterId">checkPointMasterId</label>
+                  <input type="text" class="form-control" id="checkPointMasterId" name="checkPointMasterId" aria-describedby="checkPointMasterId" placeholder="Enter checkPointMasterId">
+                </div>
+
+              <div class="form-group">
+                <label for="checkPointName">checkPointName</label>
+                <input type="text" class="form-control checkPointName" id="checkPointName" name="checkPointName" aria-describedby="checkPointName" placeholder="Enter checkPointName">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">checkPointCode</label>
+                <input type="text" class="form-control checkPointCode" id="checkPointCode"  name="checkPointCode" placeholder="checkPointCode">
+              </div>
+
+              <div class="form-group">
+                <label for="checkPointCategory">checkPointCategory</label>
+                <input type="text" class="form-control checkPointCategory" id="checkPointCategory"  name="checkPointCategory" placeholder="checkPointCategory">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">circularLatLong</label>
+                <input type="circularLatLong" class="form-control circularLatLong" id="circularLatLong"  name="circularLatLong" placeholder="circularLatLong">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">description</label>
+                <input type="text" class="form-control" id="description"  name="description" placeholder="description">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">customerNo</label>
+                <input type="text" class="form-control" id="customerNo"  name="customerNo" placeholder="customerNo">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">createdBy</label>
+                <input type="text" class="form-control" id="createdBy"  name="createdBy" placeholder="createdBy">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">createdOn</label>
+                <input type="text" class="form-control" id="createdOn"  name="createdOn" placeholder="createdOn">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">updatedBy</label>
+                <input type="text" class="form-control" id="updatedBy"  name="updatedBy" placeholder="updatedBy">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">isDeleted</label>
+                <input type="text" class="form-control" id="isDeleted"  name="isDeleted" placeholder="isDeleted">
+              </div>
+              <button type="submit" class="btn btn-primary" id="btnupdateCheckPointMaster">Submit</button>
+            </form>
+          </div>
+        </div>
+        <!-- updateCheckPointMaster -->
+
+        <!-- deleteCheckPointMaster -->
+        <br>
+        <div  data-toggle="collapse" id="collapsedeleteCheckPointMaster" data-target="#deleteCheckPointMaster" role="button" aria-expanded="false" aria-controls="deleteCheckPointMaster">
+            <b class="alert-info"> deleteCheckPointMaster </b>
+        </div>    
+            <div class="collapse" id="deleteCheckPointMaster">
+                <div class="card card-body">
+                  <form>
+                    <br>
+                    <div class="form-group">
+                        <label for="checkPointMasterId">checkPointMasterId</label>
+                        <input type="text" class="form-control deletecheckPointMasterId" id="deletecheckPointMasterId" name="deletecheckPointMasterId" aria-describedby="deletecheckPointMasterId" placeholder="Enter checkPointMasterId">
+                      </div>
+                    <button type="submit" class="btn btn-primary" id="btndeleteCheckPointMaster">Submit</button>
+                  </form>
+                </div>
+            </div>
+        
+        <!-- deleteCheckPointMaster -->
+
+
+        <!-- getCheckPointMaster -->
+        <br>
+        <div  data-toggle="collapse" id="collapsegetCheckPointMaster" data-target="#getCheckPointMaster" role="button" aria-expanded="false" aria-controls="getCheckPointMaster">
+            <b class="alert-info"> getCheckPointMaster </b>
+        </div>   
+            <div class="collapse" id="getCheckPointMaster">
+                <div class="card card-body">
+                  <form>
+                    <br>
+                    <div class="form-group">
+                        <label for="checkPointMasterId">getCheckPointMaster</label>
+                        <input type="text" class="form-control" id="getcheckPointMasterId" name="getcheckPointMasterId" aria-describedby="getcheckPointMasterId" placeholder="Enter checkPointMasterId">
+                      </div>
+                    <button type="submit" class="btn btn-primary" id="btngetCheckPointMaster">Submit</button>
+                  </form>
+                </div>
+            </div>
+        
+        <!-- getCheckPointMaster -->
+
+
+
+        <!-- createDelivery -->
+
+        <h2>Delivery</h2>
+        <div  data-toggle="collapse" id="collapseDelivery" data-target="#delivery" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <b class="alert-info"> createDelivery </b>
+        </div>
+        
+        
+        <div class="collapse" id="delivery">
+          <div class="card card-body">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque obcaecati nisi maiores porro quis impedit expedita atque assumenda ut ipsam illum tenetur fugit, sapiente velit, incidunt quod delectus quia aut.
+          </div>
+        </div>
+        <!-- createDelivery -->
+
+        <!-- update delivery -->
+        <br>
+        <div  data-toggle="collapse" id="collapseupdatedelivery" data-target="#updatedelivery" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <b class="alert-info"> updateDelivery </b>
+        </div>
+        
+        
+        <div class="collapse" id="updatedelivery">
+          <div class="card card-body">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque obcaecati nisi maiores porro quis impedit expedita atque assumenda ut ipsam illum tenetur fugit, sapiente velit, incidunt quod delectus quia aut.
+          </div>
+        </div>
+        <!-- update delivery -->
+
+        <!-- deleteDelivery -->
+
+        <br>
+        <div  data-toggle="collapse" id="collapsedeleteDelivery" data-target="#deletedelivery" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <b class="alert-info"> deleteDelivery </b>
+        </div>
+        
+        
+        <div class="collapse" id="deletedelivery">
+          <div class="card card-body">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque obcaecati nisi maiores porro quis impedit expedita atque assumenda ut ipsam illum tenetur fugit, sapiente velit, incidunt quod delectus quia aut.
+          </div>
+        </div>
+        <!-- deleteDelivery -->
+
+
+        <!-- getDelivery -->
+        <br>
+        <div  data-toggle="collapse" id="collapsedeleteDelivery" data-target="#getdelivery" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <b class="alert-info"> getDelivery </b>
+        </div>
+        
+        
+        <div class="collapse" id="getdelivery">
+          <div class="card card-body">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque obcaecati nisi maiores porro quis impedit expedita atque assumenda ut ipsam illum tenetur fugit, sapiente velit, incidunt quod delectus quia aut.
+          </div>
+        </div>
+        <!-- getDelivery -->
+        
+        <!-- Shipment  -->
+        <h2> Shipment </h2>
+        <div  data-toggle="collapse" id="collapseShipment" data-target="#createShipment" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <b class="alert-info"> createShipment </b>
+        </div>
+        
+        
+        <div class="collapse" id="createShipment">
+          <div class="card card-body">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque obcaecati nisi maiores porro quis impedit expedita atque assumenda ut ipsam illum tenetur fugit, sapiente velit, incidunt quod delectus quia aut.
+          </div>
+        </div>
+        <!-- Shipment  -->
+
+        <!-- updateShipment -->
+        <br>
+        <div  data-toggle="collapse" id="collapseupdateShipment" data-target="#updateShipment" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <b class="alert-info"> updateShipment </b>
+        </div>
+        
+        
+        <div class="collapse" id="updateShipment">
+          <div class="card card-body">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque obcaecati nisi maiores porro quis impedit expedita atque assumenda ut ipsam illum tenetur fugit, sapiente velit, incidunt quod delectus quia aut.
+          </div>
+        </div>
+        <!-- updateShipment -->
+
+
+        <!-- deleteShipment -->
+        <br>
+        <div  data-toggle="collapse" id="collapsedeleteShipment" data-target="#deleteShipment" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <b class="alert-info"> deleteShipment </b>
+        </div>
+        
+        
+        <div class="collapse" id="deleteShipment">
+          <div class="card card-body">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque obcaecati nisi maiores porro quis impedit expedita atque assumenda ut ipsam illum tenetur fugit, sapiente velit, incidunt quod delectus quia aut.
+          </div>
+        </div>
+        <!-- deleteShipment -->
+
+
+        <!-- getShipment -->
+        <br>
+        <div  data-toggle="collapse" id="collapsegetShipment" data-target="#getShipment" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <b class="alert-info"> getShipment </b>
+        </div>
+        
+        
+        <div class="collapse" id="getShipment">
+          <div class="card card-body">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque obcaecati nisi maiores porro quis impedit expedita atque assumenda ut ipsam illum tenetur fugit, sapiente velit, incidunt quod delectus quia aut.
+          </div>
+        </div>
+        <!-- getShipment -->
+        </div>
+
+        <div class="col-md-4 well result" id="result"></div>
+    </div>
+    </div>
+    
+    <% include ./partials/footer %>
+
+    <script>
+        $(document).on('click','#btncheckPointCategory',function(){
+          var checkPointName = $('#checkPointName').val();
+          var checkPointCode = $('#checkPointCode').val();
+          var checkPointCategory = $('#checkPointCategory').val();
+          var circularLatLong = $('#circularLatLong').val();
+          var polygonalLatLong = $('#polygonalLatLong').val();
+          var description = $('#description').val();
+          var customerNo = $('#customerNo').val();
+          var createdBy = $('#createdBy').val();
+          var createdOn = $('#createdOn').val();
+          var updatedBy = $('#updatedBy').val();
+          var updatedOn = $('#updatedOn').val();
+          var isDeleted = $('#isDeleted').val();
+          $.ajax({
+            type : "POST",
+            url: "api/masters/createCheckPointMaster", 
+            data : {
+              "checkPointName": checkPointName,
+              "checkPointCode": checkPointCode,
+              "checkPointCategory": checkPointCategory,
+              "circularLatLong": circularLatLong,
+              "polygonalLatLong": polygonalLatLong,
+              "description": description,
+              "customerNo": customerNo,
+              "createdBy": createdBy,
+              "createdOn": createdOn,
+              "updatedBy": updatedBy,
+              "updatedOn": updatedOn,
+              "isDeleted": isDeleted
+            },
+            success: function(result){
+              // var obj = jQuery.parseJSON(JSON.stringify(result));
+              // alert(obj.result);
+              // console.log(obj);
+              $('#collapsecreateCheckPointMaster').click();
+              
+              $("#result").html("<h1 class='text-success h1'> Response </h1> <pre>" + JSON.stringify(result,null,'\t') + "<pre>");
+             
+        }});
+        return false;
+        });
+   
+        $(document).on('click','#btnupdateCheckPointMaster',function(){
+          var checkPointMasterId = $('#checkPointMasterId').val();
+          var checkPointName = $('.checkPointName').val();
+          var checkPointCode = $('.checkPointCode').val();
+          var checkPointCategory = $('.checkPointCategory').val();
+          var circularLatLong = $('.ircularLatLong').val();
+          var polygonalLatLong = $('#polygonalLatLong').val();
+          var description = $('#description').val();
+          var customerNo = $('#customerNo').val();
+          var createdBy = $('#createdBy').val();
+          var createdOn = $('#createdOn').val();
+          var updatedBy = $('#updatedBy').val();
+          var updatedOn = $('#updatedOn').val();
+          var isDeleted = $('#isDeleted').val();
+          $.ajax({
+            type : "POST",
+            url: "api/masters/updateCheckPointMaster", 
+            data : {
+              "checkPointMasterId" : checkPointMasterId,
+              "checkPointName": checkPointName,
+              "checkPointCode": checkPointCode,
+              "checkPointCategory": checkPointCategory,
+              "circularLatLong": circularLatLong,
+              "polygonalLatLong": polygonalLatLong,
+              "description": description,
+              "customerNo": customerNo,
+              "createdBy": createdBy,
+              "createdOn": createdOn,
+              "updatedBy": updatedBy,
+              "updatedOn": updatedOn,
+              "isDeleted": isDeleted
+            },
+            success: function(result){
+              // var obj = jQuery.parseJSON(JSON.stringify(result));
+              // alert(obj.result);
+              // console.log(obj);
+              $('#collapseupdateCheckPointMaster').click();
+              
+              $("#result").html("<h1 class='text-success h1'> Response </h1> <pre>" + JSON.stringify(result,null,'\t') + "<pre>");
+             
+        }});
+        return false;
+        });  
+
+        // btndeleteCheckPointMaster
+        $(document).on('click','#btndeleteCheckPointMaster',function(){
+          var checkPointMasterId = $('#deletecheckPointMasterId').val();
+           $.ajax({
+            type : "POST",
+            url: "api/masters/deleteCheckPointMaster", 
+            data : {
+              "checkPointMasterId" : checkPointMasterId
+            },
+            success: function(result){
+              // var obj = jQuery.parseJSON(JSON.stringify(result));
+              // alert(obj.result);
+              // console.log(obj);
+              $('#collapsedeleteCheckPointMaster').click();
+              
+              $("#result").html("<h1 class='text-success h1'> Response </h1> <pre>" + JSON.stringify(result,null,'\t') + "<pre>");
+             
+        }});
+        return false;
+        });  
+
+        // getCheckPointMaster
+        
+        $(document).on('click','#btngetCheckPointMaster',function(){
+          var checkPointMasterId = $('#getcheckPointMasterId').val();
+           $.ajax({
+            type : "POST",
+            url: "api/masters/getCheckPointMaster", 
+            data : {
+              "checkPointMasterId" : checkPointMasterId
+            },
+            success: function(result){
+              // var obj = jQuery.parseJSON(JSON.stringify(result));
+              // alert(obj.result);
+              // console.log(obj);
+              $('#collapsegetCheckPointMaster').click();
+              
+              $("#result").html("<h1 class='text-success h1'> Response </h1> <pre>" + JSON.stringify(result,null,'\t') + "<pre>");
+             
+        }});
+        return false;
+        });  
+   </script>
+
+
+
+    
+   

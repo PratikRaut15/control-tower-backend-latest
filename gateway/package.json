@@ -1,0 +1,29 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "Simple API Gateway using Express JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ecojuntak/api-gateway"
+  },
+  "keywords": [
+    "api-gateway"
+  ],
+  "author": "Eko Simanjuntak",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.7.13",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.0.2",
+    "nodemon": "^2.0.1"
+  }
+}
